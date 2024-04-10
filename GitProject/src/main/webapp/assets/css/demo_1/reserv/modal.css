@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#my_modal {
+	position: relative; /* 모달 내부의 상대적인 위치 설정 */
+	display: none;
+	width: 650px;
+	height: 900px;
+	padding: 20px 60px;
+	background-color: #fefefe;
+	border: 3px solid #333333;
+	border-radius: 10px;
+}
+
+#my_modal .modal_close_btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #333333;
+}
+
+.scrollable-section {
+	overflow: auto;
+	max-height: 300px;
+}
+
+#reservation_section {
+	border: 3px solid #333333;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#vc_border {
+	border: 3px solid #333333;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#vc_price_modal, #rsv_date {
+	border: 3px solid #333333; /* 테두리 추가 */
+	padding: 10px; /* 내부 여백 설정 */
+	border-radius: 5px; /* 테두리 모서리를 둥글게 만듭니다. */
+}
+
+.custom-block {
+	border: 2px solid #333333
+}
+
+#buy {
+	margin-left: 410px;
+	background-color: #D6D6D6;
+}
+
+#reserve_button {
+	margin-left: 410px;
+}
